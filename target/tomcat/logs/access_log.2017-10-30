@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [30/Oct/2017:16:09:08 +0530] "GET /spring-mvc/login HTTP/1.1" 200 2126 http-bio-8080-exec-1 404
+0:0:0:0:0:0:0:1 - - [30/Oct/2017:16:09:08 +0530] "GET /spring-mvc/rollbarlogo.png HTTP/1.1" 404 949 http-bio-8080-exec-3 5
+0:0:0:0:0:0:0:1 - - [30/Oct/2017:16:09:09 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [30/Oct/2017:16:09:11 +0530] "POST /spring-mvc/login HTTP/1.1" 200 119 http-bio-8080-exec-5 124
+0:0:0:0:0:0:0:1 - - [30/Oct/2017:16:09:13 +0530] "GET /spring-mvc/login HTTP/1.1" 200 2126 http-bio-8080-exec-6 4

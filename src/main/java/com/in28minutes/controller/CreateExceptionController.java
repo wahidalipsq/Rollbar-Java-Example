@@ -8,25 +8,20 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class LoginController {
+public class CreateExceptionController {
 	
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String showLoginPage() {
-		return "login";
-	}
 	
-	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String handleUserLogin(ModelMap model) {
-		String exception = null;
-		try{
-			exception.toCharArray();
-		}catch(Exception e){
-			model.put("exception",e.toString());	
-		}
+	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
+	public String showWecomePage() {
 		return "welcome";
 	}
 	
-	
-	
-
+	@RequestMapping(value = "/createException", method = RequestMethod.POST)
+	public String handleUserLogin(ModelMap model) {
+		    String exception = null;
+		    System.out.println("Error : here....");
+			exception.toCharArray();
+		
+		return "error";
+	}
 }
