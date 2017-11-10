@@ -18,9 +18,9 @@ public class CreateExceptionController {
 	
 	@RequestMapping(value = "/createException", method = RequestMethod.POST)
 	public String handleUserLogin(ModelMap model) {
-		    String exception = null;
 		    System.out.println("Error : here....");
-			exception.toCharArray();
+		    String exception = null;
+		    exception.toCharArray();
 		
 		return "error";
 	}
