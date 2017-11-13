@@ -18,16 +18,14 @@
 			<value>.jsp</value>
 		</property>
 	</bean>
-	<!-- <bean id="simpleMappingExceptionResolver"
-		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+	<bean id="simpleMappingExceptionResolver" class="com.in28minutes.controller.MyMappingExceptionResolver">
 		<property name="exceptionMappings">
-		<map>
-			<entry key="com.in28minutes.controller.MyMappingExceptionResolver" value="error" />
-		</map>
-	  </property>
-		See note below on how this interacts with Spring Boot
+			<props>
+				<prop key="java.lang.Exception">error</prop>
+			</props>
+		</property>
 		<property name="defaultErrorView" value="error" />
 		<property name="exceptionAttribute" value="ex" />
 	</bean>
- -->
+
 </beans>

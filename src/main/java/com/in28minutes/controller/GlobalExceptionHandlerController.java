@@ -11,8 +11,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import com.rollbar.notifier.Rollbar;
 import static com.rollbar.notifier.config.ConfigBuilder.withAccessToken;
 
-@ControllerAdvice
-@EnableWebMvc
+/*@ControllerAdvice
+@EnableWebMvc*/
 public class GlobalExceptionHandlerController {
 	
 	public static final String DEFAULT_ERROR_VIEW = "error";
