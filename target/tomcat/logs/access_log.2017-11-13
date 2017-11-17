@@ -5,3 +5,12 @@
 0:0:0:0:0:0:0:1 - - [13/Nov/2017:18:58:39 +0530] "GET /spring-mvc/welcome HTTP/1.1" 200 2162 http-bio-8080-exec-1 282
 0:0:0:0:0:0:0:1 - - [13/Nov/2017:18:58:40 +0530] "GET /spring-mvc/rollbarlogo.png HTTP/1.1" 404 949 http-bio-8080-exec-2 4
 0:0:0:0:0:0:0:1 - - [13/Nov/2017:18:58:46 +0530] "POST /spring-mvc/createException HTTP/1.1" 200 89 http-bio-8080-exec-3 3920
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:20:22:16 +0530] "GET /spring-mvc/welcome HTTP/1.1" 200 2162 http-bio-8080-exec-1 273
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:20:22:16 +0530] "GET /spring-mvc/rollbarlogo.png HTTP/1.1" 404 949 http-bio-8080-exec-3 6
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:20:22:19 +0530] "POST /spring-mvc/createException HTTP/1.1" 200 89 http-bio-8080-exec-4 1056
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:20:34:20 +0530] "POST /spring-mvc/createException HTTP/1.1" 200 89 http-bio-8080-exec-6 576
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:20:46:30 +0530] "POST /spring-mvc/createException HTTP/1.1" 200 89 http-bio-8080-exec-9 568
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:21:36:07 +0530] "POST /spring-mvc/createException HTTP/1.1" 200 89 http-bio-8080-exec-2 557
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:21:39:03 +0530] "POST /spring-mvc/createException HTTP/1.1" 200 119 http-bio-8080-exec-6 582
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:21:39:15 +0530] "POST /spring-mvc/createException HTTP/1.1" 200 119 http-bio-8080-exec-6 386
+0:0:0:0:0:0:0:1 - - [13/Nov/2017:21:39:53 +0530] "POST /spring-mvc/createException HTTP/1.1" 200 119 http-bio-8080-exec-6 448
