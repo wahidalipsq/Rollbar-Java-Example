@@ -1,3 +1,2 @@
 # ignore all local logs
-
-/target/*.**
+target/*.**
