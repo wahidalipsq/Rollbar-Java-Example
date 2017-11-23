@@ -9,19 +9,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class CreateExceptionController {
-	
-	
+
+
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String showWecomePage() {
 		return "welcome";
 	}
-	
+
 	@RequestMapping(value = "/createException", method = RequestMethod.POST)
 	public String throwException(ModelMap model) {
-		    System.out.println("Error : here....");
-		    String exception = null;
-		    exception.toCharArray();
-		
+		System.out.println("Error : here....");
+		String exception = null;
+		exception.toCharArray();
+
 		return "error";
 	}
 }

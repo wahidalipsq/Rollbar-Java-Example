@@ -26,13 +26,9 @@ public class MyMappingExceptionResolver extends SimpleMappingExceptionResolver {
 	public String buildLogMessage(Exception e, HttpServletRequest req) {
 
 		System.out.println("Exception : " + e.toString());
-		RequestProvider requestProvider = new RequestProvider
-				.Builder()
-				.userIpHeaderName(req.getRemoteAddr()).build();
-		rollbar = Rollbar.init(withAccessToken(accessToken)
-				.request(requestProvider).build());
+		RequestProvider requestProvider = new RequestProvider.Builder().userIpHeaderName(req.getRemoteAddr()).build();
+		rollbar = Rollbar.init(withAccessToken(accessToken).request(requestProvider).build());
 		rollbar.error(e);
-
 		return "MVC exception: " + e.getLocalizedMessage();
 	}
 
